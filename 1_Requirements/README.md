@@ -25,6 +25,7 @@ Door Sensor is a mini project which uses microcontroller ATmega328 and work as a
 ## High Level Requirements:-
 - a)A Door Sensor is connected to bit 1 of Port B.
 - b)LED is connected to bit 6 of port C.
+- c)LED should be turn ON without changing the state of other pins.
 ## Low Level Requirements :-
 - a)When switch is closed pin B will get 5V and LED will glow.
 - b)When switch is open pin B will get 0V and LED will not glow.
